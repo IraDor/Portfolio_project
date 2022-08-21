@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #b663ff;
   --secondary-color: rgb(108, 228, 250);
-  --font-color: rgba(127, 229, 245, 0.573);
+  --font-color: rgba(183, 235, 243, 0.573);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -12,6 +12,9 @@ body {
   text-align: center;
   margin: 0;
   background: var(--font-color);
+}
+.light {
+  background-color: var(--secondary-color);
 }
 
 h1 {
@@ -75,11 +78,11 @@ p {
   margin: 10px;
 }
 
-.email-link {
+.connect-link {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 20px;
   text-decoration: none;
 }
 
@@ -91,6 +94,19 @@ p {
   background: var(--primary-color) !important;
   box-shadow: var(--box-shadow) !important;
   color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  width: 100%;
+  padding: 25px 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
 
 @media (max-width: 900px) {
