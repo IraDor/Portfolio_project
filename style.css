@@ -1,7 +1,7 @@
 :root {
   --primary-color: #6c63ff;
   --secondary-color: rgb(108, 228, 250);
-  --font-color: rgba(232, 252, 255, 0.573);
+  --font-color: rgba(127, 229, 245, 0.573);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -37,14 +37,14 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   justify-content: center;
 }
 
 .navigation-links a {
   margin: 20px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 10px 15px;
   text-decoration: none;
   text-transform: capitalize;
 }
